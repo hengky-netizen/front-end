@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar {
+    margin-top: 0;
+    height: 80px;
+    background-color: rgb(60, 60, 60);
+}
+
+.navbar h1{
+    color: white;
+    padding: 20px 40px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    float: left;
+    color: #f7f7f7;
+}
+
+.navbar li{
+    float: left;
+    color: #f7f7f7;
+    list-style: none;
+    padding-left: 25px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.content-header {
+    width: 100%;
+}
+
+.content-header h1{
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    padding-top: 100px;
+    letter-spacing: 5px;
+}
+
+.content-header span{
+ color: rgb(255, 200, 49);
+}
+
+.content-header h3{
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 30px;
+    letter-spacing: 8px;
+}
+
+.content-header img{
+    width: 200px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 80px;
+}
+
+.content-about {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 80px;
+}
+
+.content-about p{
+    padding-top: 30px;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+}
+
+.content-image {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.content-image img{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.content-image-wrap {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    display: inline-block;
+}
+
+.content-image-wrap p{
+    padding-top: 30px;
+}
+
+.content-contact {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 80px;
+}
+
+.content-contact h3{
+    padding-bottom: 40px;
+}
+
+.content-contact input{
+    width: 600px;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.content-contact-input {
+    padding-left: 10px;
+}
+
+.content-contact textarea {
+    width: 600px;
+    height: 70px;
+    border: none;
+    border-radius: 6px;
+}
+
+.content-contact-textarea {
+    padding: 20px 0px 0px 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(241, 238, 127);
+    width: 30%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 247, 20);
+    cursor: pointer;
+}
+
+.content-footer {
+    height: 140px;
+    background-color:rgb(155, 155, 155);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+}
+
+.content-footer h1{
+    letter-spacing: 5px;
+    float: left;
+}
+
+.content-footer ul{
+    float: right;
+    margin-bottom: 20px;
+}
+
+.content-footer li{
+    list-style: none;
+    margin-bottom: 10px;
+}
